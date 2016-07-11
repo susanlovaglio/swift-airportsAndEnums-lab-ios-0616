@@ -41,16 +41,6 @@ class ViewController: UIViewController {
     var feltTemp: FeltTemp = .None
     var windDirection: WindDirection = .V
     var weatherCondition: WeatherCondition = .None
-    var airportCode: AirportCode? {
-        didSet {
-            if let code = airportCode {
-                if let airportDict = airportDictionary {
-                    airportStatus = airportDict[code.rawValue] as? AirportStatus
-                }
-                
-            }
-        }
-    }
     
     // Airport Status Dictionary
     var airportDictionary: NSDictionary? {
@@ -58,8 +48,6 @@ class ViewController: UIViewController {
             if let airportDict = airportDictionary {
                 let sortedKeys = (airportDict.allKeys as! [String]).sort(<)
                 if let code = sortedKeys.first {
-                    
-                    airportCode = AirportCode(rawValue: code)
                     
                 }
             }
@@ -84,8 +72,6 @@ class ViewController: UIViewController {
         
         setUpView()
         airportDictionary = AirportStatus.getTestDataDictionary()
-        print(airportCode)
-        
         
     }
 }
@@ -101,25 +87,7 @@ extension ViewController {
     }
     
     // Airport Code Enum
-    enum AirportCode: String {
-        case ATL, DFW, JFK, LAX, ORD
 
-        mutating func next() {
-            switch self {
-            case ATL:
-                self = DFW
-            case DFW:
-                self = JFK
-            case JFK:
-                self = LAX
-            case LAX:
-                self = ORD
-            case ORD:
-                self = ATL
-            }
-        }
-        
-    }
     
     // Weather Condition Enum
     enum WeatherCondition: String {
@@ -298,7 +266,7 @@ extension ViewController {
     // Change status for view
     func changeStatusWithAnimation() {
         if statusReceived {
-            airportCode?.next()
+            
             UIView.transitionWithView(view, duration: 0.5, options: .TransitionFlipFromRight, animations: nil, completion: nil)
         }
     }
