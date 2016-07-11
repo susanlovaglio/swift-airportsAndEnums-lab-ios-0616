@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fair</key>
+	<array>
+		<string>Fair</string>
+		<string>Clear</string>
+		<string>Fair with Haze</string>
+		<string>Clear with Haze</string>
+		<string>Fair and Breezy</string>
+		<string>Clear and Breezy</string>
+		<string>A Few Clouds</string>
+		<string>A Few Clouds with Haze</string>
+		<string>A Few Clouds and Breezy</string>
+	</array>
+	<key>Cloudy</key>
+	<array>
+		<string>Mostly Cloudy</string>
+		<string>Mostly Cloudy with Haze</string>
+		<string>Mostly Cloudy and Breezy</string>
+		<string>Partly Cloudy</string>
+		<string>Partly Cloudy with Haze</string>
+		<string>Partly Cloudy and Breezy</string>
+		<string>Overcast</string>
+		<string>Overcast with Haze</string>
+		<string>Overcast and Breezy</string>
+	</array>
+	<key>Fog</key>
+	<array>
+		<string>Fog/Mist</string>
+		<string>Fog</string>
+		<string>Freezing Fog</string>
+		<string>Shallow Fog</string>
+		<string>Partial Fog</string>
+		<string>Patches of Fog</string>
+		<string>Fog in Vicinity</string>
+		<string>Freezing Fog in Vicinity</string>
+		<string>Shallow Fog in Vicinity</string>
+		<string>Partial Fog in Vicinity</string>
+		<string>Patches of Fog in Vicinity</string>
+		<string>Showers in Vicinity Fog</string>
+		<string>Light Freezing Fog</string>
+		<string>Heavy Freezing Fog</string>
+		<string>Haze</string>
+	</array>
+	<key>Smoke</key>
+	<array>
+		<string>Smoke</string>
+	</array>
+	<key>Rain</key>
+	<array>
+		<string>Freezing Rain</string>
+		<string>Freezing Drizzle</string>
+		<string>Light Freezing Rain</string>
+		<string>Light Freezing Drizzle</string>
+		<string>Heavy Freezing Rain</string>
+		<string>Heavy Freezing Drizzle</string>
+		<string>Freezing Rain in Vicinity</string>
+		<string>Freezing Drizzle in Vicinity</string>
+		<string>Ice Pellets</string>
+		<string>Light Ice Pellets</string>
+		<string>Heavy Ice Pellets</string>
+		<string>Ice Pellets in Vicinity</string>
+		<string>Showers Ice Pellets</string>
+		<string>Thunderstorm Ice Pellets</string>
+		<string>Ice Crystals</string>
+		<string>Hail</string>
+		<string>Small Hail/Snow Pellets</string>
+		<string>Light Small Hail/Snow Pellets</string>
+		<string>Heavy small Hail/Snow Pellets</string>
+		<string>Showers Hail</string>
+		<string>Hail Showers Freezing Rain Snow</string>
+		<string>Light Freezing Rain Snow</string>
+		<string>Heavy Freezing Rain Snow</string>
+		<string>Freezing Drizzle Snow</string>
+		<string>Light Freezing Drizzle Snow</string>
+		<string>Heavy Freezing Drizzle Snow</string>
+		<string>Snow Freezing Rain</string>
+		<string>Light Snow Freezing Rain</string>
+		<string>Heavy Snow Freezing Rain</string>
+		<string>Snow Freezing Drizzle</string>
+		<string>Light Snow Freezing Drizzle</string>
+		<string>Heavy Snow Freezing Drizzle</string>
+		<string>Rain Ice Pellets</string>
+		<string>Light Rain Ice Pellets</string>
+		<string>Heavy Rain Ice Pellets</string>
+		<string>Drizzle Ice Pellets</string>
+		<string>Light Drizzle Ice Pellets</string>
+		<string>Heavy Drizzle Ice Pellets</string>
+		<string>Ice Pellets Rain</string>
+		<string>Light Ice Pellets Rain</string>
+		<string>Heavy Ice Pellets Rain</string>
+		<string>Ice Pellets Drizzle</string>
+		<string>Light Ice Pellets Drizzle</string>
+		<string>Heavy Ice Pellets Drizzle</string>
+		<string>Showers in Vicinity</string>
+		<string>Showers in Vicinity Fog/Mist</string>
+		<string>Showers in Vicinity Fog</string>
+		<string>Showers in Vicinity Haze</string>
+		<string>Freezing Rain Rain</string>
+		<string>Light Freezing Rain Rain</string>
+		<string>Heavy Freezing Rain Rain</string>
+		<string>Rain Freezing Rain</string>
+		<string>Light Rain Freezing Rain</string>
+		<string>Heavy Rain Freezing Rain</string>
+		<string>Freezing Drizzle Rain</string>
+		<string>Light Freezing Drizzle Rain</string>
+		<string>Heavy Freezing Drizzle Rain</string>
+		<string>Rain Freezing Drizzle</string>
+		<string>Light Rain Freezing Drizzle</string>
+		<string>Heavy Rain Freezing Drizzle</string>
+		<string>Light Rain</string>
+		<string>Drizzle</string>
+		<string>Light Drizzle</string>
+		<string>Heavy Drizzle</string>
+		<string>Light Rain Fog/Mist</string>
+		<string>Drizzle Fog/Mist</string>
+		<string>Light Drizzle Fog/Mist</string>
+		<string>Heavy Drizzle Fog/Mist</string>
+		<string>Light Rain Fog</string>
+		<string>Drizzle Fog</string>
+		<string>Light Drizzle Fog</string>
+		<string>Heavy Drizzle Fog</string>
+		<string>Rain</string>
+		<string>Heavy Rain</string>
+		<string>Rain Fog/Mist</string>
+		<string>Heavy Rain Fog/Mist</string>
+		<string>Rain Fog</string>
+		<string>Heavy Rain Fog</string>
+	</array>
+	<key>Thunderstorm</key>
+	<array>
+		<string>Thunderstorm</string>
+		<string>Thunderstorm Rain</string>
+		<string>Light Thunderstorm Rain</string>
+		<string>Heavy Thunderstorm Rain</string>
+		<string>Thunderstorm Rain Fog/Mist</string>
+		<string>Light Thunderstorm Rain Fog/Mist</string>
+		<string>Heavy Thunderstorm Rain Fog and Windy</string>
+		<string>Heavy Thunderstorm Rain Fog/Mist</string>
+		<string>Thunderstorm Showers in Vicinity</string>
+		<string>Light Thunderstorm Rain Haze</string>
+		<string>Heavy Thunderstorm Rain Haze</string>
+		<string>Thunderstorm Fog</string>
+		<string>Light Thunderstorm Rain Fog</string>
+		<string>Heavy Thunderstorm Rain Fog</string>
+		<string>Thunderstorm Light Rain</string>
+		<string>Thunderstorm Heavy Rain</string>
+		<string>Thunderstorm Rain Fog/Mist</string>
+		<string>Thunderstorm Light Rain Fog/Mist</string>
+		<string>Thunderstorm Heavy Rain Fog/Mist</string>
+		<string>Thunderstorm in Vicinity Fog/Mist</string>
+		<string>Thunderstorm Showers in Vicinity</string>
+		<string>Thunderstorm in Vicinity Haze</string>
+		<string>Thunderstorm Haze in Vicinity</string>
+		<string>Thunderstorm Light Rain Haze</string>
+		<string>Thunderstorm Heavy Rain Haze</string>
+		<string>Thunderstorm Fog</string>
+		<string>Thunderstorm Light Rain Fog</string>
+		<string>Thunderstorm Heavy Rain Fog</string>
+		<string>Thunderstorm Hail</string>
+		<string>Light Thunderstorm Rain Hail</string>
+		<string>Heavy Thunderstorm Rain Hail</string>
+		<string>Thunderstorm Rain Hail Fog/Mist</string>
+		<string>Light Thunderstorm Rain Hail Fog/Mist</string>
+		<string>Heavy Thunderstorm Rain Hail Fog/Hail</string>
+		<string>Thunderstorm Showers in Vicinity Hail</string>
+		<string>Light Thunderstorm Rain Hail Haze</string>
+		<string>Heavy Thunderstorm Rain Hail Haze</string>
+		<string>Thunderstorm Hail Fog</string>
+		<string>Light Thunderstorm Rain Hail Fog</string>
+		<string>Heavy Thunderstorm Rain Hail Fog</string>
+		<string>Thunderstorm Light Rain Hail</string>
+		<string>Thunderstorm Heavy Rain Hail</string>
+		<string>Thunderstorm Rain Hail Fog/Mist</string>
+		<string>Thunderstorm Light Rain Hail Fog/Mist</string>
+		<string>Thunderstorm Heavy Rain Hail Fog/Mist</string>
+		<string>Thunderstorm in Vicinity Hail</string>
+		<string>Thunderstorm in Vicinity Hail Haze</string>
+		<string>Thunderstorm Haze in Vicinity Hail</string>
+		<string>Thunderstorm Light Rain Hail Haze</string>
+		<string>Thunderstorm Heavy Rain Hail Haze</string>
+		<string>Thunderstorm Hail Fog</string>
+		<string>Thunderstorm Light Rain Hail Fog</string>
+		<string>Thunderstorm Heavy Rain Hail Fog</string>
+		<string>Thunderstorm Small Hail/Snow Pellets</string>
+		<string>Thunderstorm Rain Small Hail/Snow Pellets</string>
+		<string>Light Thunderstorm Rain Small Hail/Snow Pellets</string>
+		<string>Heavy Thunderstorm Rain Small Hail/Snow Pellets</string>
+		<string>Thunderstorm in Vicinity</string>
+		<string>Thunderstorm in Vicinity Fog</string>
+		<string>Thunderstorm in Vicinity Haze</string>
+	</array>
+	<key>Snow</key>
+	<array>
+		<string>Snow</string>
+		<string>Light Snow</string>
+		<string>Heavy Snow</string>
+		<string>Snow Showers</string>
+		<string>Light Snow Showers</string>
+		<string>Heavy Snow Showers</string>
+		<string>Showers Snow</string>
+		<string>Light Showers Snow</string>
+		<string>Heavy Showers Snow</string>
+		<string>Snow Fog/Mist</string>
+		<string>Light Snow Fog/Mist</string>
+		<string>Heavy Snow Fog/Mist</string>
+		<string>Snow Showers Fog/Mist</string>
+		<string>Light Snow Showers Fog/Mist</string>
+		<string>Heavy Snow Showers Fog/Mist</string>
+		<string>Showers Snow Fog/Mist</string>
+		<string>Light Showers Snow Fog/Mist</string>
+		<string>Heavy Showers Snow Fog/Mist</string>
+		<string>Snow Fog</string>
+		<string>Light Snow Fog</string>
+		<string>Heavy Snow Fog</string>
+		<string>Snow Showers Fog</string>
+		<string>Light Snow Showers Fog</string>
+		<string>Heavy Snow Showers Fog</string>
+		<string>Showers Snow Fog</string>
+		<string>Light Showers Snow Fog</string>
+		<string>Heavy Showers Snow Fog</string>
+		<string>Showers in Vicinity Snow</string>
+		<string>Snow Showers in Vicinity</string>
+		<string>Snow Showers in Vicinity Fog/Mist</string>
+		<string>Snow Showers in Vicinity Fog</string>
+		<string>Low Drifting Snow</string>
+		<string>Blowing Snow</string>
+		<string>Snow Low Drifting Snow</string>
+		<string>Snow Blowing Snow</string>
+		<string>Light Snow Low Drifting Snow</string>
+		<string>Light Snow Blowing Snow</string>
+		<string>Light Snow Blowing Snow Fog/Mist</string>
+		<string>Heavy Snow Low Drifting Snow</string>
+		<string>Heavy Snow Blowing Snow</string>
+		<string>Thunderstorm Snow</string>
+		<string>Light Thunderstorm Snow</string>
+		<string>Heavy Thunderstorm Snow</string>
+		<string>Snow Grains</string>
+		<string>Light Snow Grains</string>
+		<string>Heavy Snow Grains</string>
+		<string>Heavy Blowing Snow</string>
+		<string>Blowing Snow in Vicinity</string>
+	</array>
+	<key>Windy</key>
+	<array>
+		<string>Windy</string>
+		<string>Breezy</string>
+		<string>Fair and Windy</string>
+		<string>A Few Clouds and Windy</string>
+		<string>Partly Cloudy and Windy</string>
+		<string>Mostly Cloudy and Windy</string>
+		<string>Overcast and Windy</string>
+	</array>
+	<key>Tornado</key>
+	<array>
+		<string>Funnel Cloud</string>
+		<string>Funnel Cloud in Vicinity</string>
+		<string>Tornado/Water Spout</string>
+	</array>
+	<key>Dust</key>
+	<array>
+		<string>Dust</string>
+		<string>Low Drifting Dust</string>
+		<string>Blowing Dust</string>
+		<string>Sand</string>
+		<string>Blowing Sand</string>
+		<string>Low Drifting Sand</string>
+		<string>Dust/Sand Whirls</string>
+		<string>Dust/Sand Whirls in Vicinity</string>
+		<string>Dust Storm</string>
+		<string>Heavy Dust Storm</string>
+		<string>Dust Storm in Vicinity</string>
+		<string>Sand Storm</string>
+		<string>Heavy Sand Storm</string>
+		<string>Sand Storm in Vicinity</string>
+	</array>
+</dict>
+</plist>

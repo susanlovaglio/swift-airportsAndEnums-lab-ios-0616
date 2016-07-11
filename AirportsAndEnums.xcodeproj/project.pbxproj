@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41FB83FDCABFD8B91ADAF1D1 /* Pods_AirportsAndEnumsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC2BE30D2CF37F2DD3D54EE /* Pods_AirportsAndEnumsTests.framework */; };
+		5D7509DF1D32CD1300DF44F9 /* AirportAndEnumsLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7509DE1D32CD1300DF44F9 /* AirportAndEnumsLabTests.swift */; };
+		5D7509E41D32D77600DF44F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7509E31D32D77600DF44F9 /* Assets.xcassets */; };
+		5D7509E61D32D78300DF44F9 /* WeatherConditions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D7509E51D32D78300DF44F9 /* WeatherConditions.plist */; };
+		5D7509E81D32D79A00DF44F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7509E71D32D79A00DF44F9 /* Main.storyboard */; };
+		5D7509EA1D32D7A200DF44F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7509E91D32D7A200DF44F9 /* ViewController.swift */; };
+		5D7509ED1D32D7AA00DF44F9 /* FAAServicesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7509EB1D32D7AA00DF44F9 /* FAAServicesAPI.swift */; };
+		5D7509EE1D32D7AA00DF44F9 /* AirportStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7509EC1D32D7AA00DF44F9 /* AirportStatus.swift */; };
+		5D7509F41D3307FC00DF44F9 /* LoaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7509F31D3307FC00DF44F9 /* LoaderController.swift */; };
+		5D7509F61D33149200DF44F9 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7509F51D33149200DF44F9 /* CustomSegue.swift */; };
+		5DD0D89E1D32C9BA00DC005F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D89D1D32C9BA00DC005F /* AppDelegate.swift */; };
+		5DD0D8A81D32C9BA00DC005F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD0D8A61D32C9BA00DC005F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DD0D8AF1D32C9BA00DC005F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DD0D8921D32C9BA00DC005F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD0D8991D32C9BA00DC005F;
+			remoteInfo = AirportsAndEnums;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1239ABDDEF12AA1952A6FF0E /* Pods-AirportsAndEnumsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsAndEnumsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirportsAndEnumsUITests/Pods-AirportsAndEnumsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		442C7BBA7EAB37DD112DFF6A /* Pods-AirportsAndEnumsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsAndEnumsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirportsAndEnumsUITests/Pods-AirportsAndEnumsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D7509DE1D32CD1300DF44F9 /* AirportAndEnumsLabTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportAndEnumsLabTests.swift; sourceTree = "<group>"; };
+		5D7509E31D32D77600DF44F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D7509E51D32D78300DF44F9 /* WeatherConditions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeatherConditions.plist; sourceTree = "<group>"; };
+		5D7509E71D32D79A00DF44F9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5D7509E91D32D7A200DF44F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D7509EB1D32D7AA00DF44F9 /* FAAServicesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAAServicesAPI.swift; sourceTree = "<group>"; };
+		5D7509EC1D32D7AA00DF44F9 /* AirportStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportStatus.swift; sourceTree = "<group>"; };
+		5D7509F31D3307FC00DF44F9 /* LoaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderController.swift; sourceTree = "<group>"; };
+		5D7509F51D33149200DF44F9 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		5DD0D89A1D32C9BA00DC005F /* AirportsAndEnums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportsAndEnums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD0D89D1D32C9BA00DC005F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DD0D8A71D32C9BA00DC005F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DD0D8A91D32C9BA00DC005F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD0D8AE1D32C9BA00DC005F /* AirportsAndEnumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportsAndEnumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD0D8B41D32C9BA00DC005F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD0D8CB1D32CB8E00DC005F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../../Library/Developer/Xcode/DerivedData/AirportsAndEnums-fsqtxdokoeaxnifwumkhckszawxh/Build/Products/Debug-iphonesimulator/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		674A9D101F8F215179B07450 /* Pods-AirportsAndEnumsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsAndEnumsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirportsAndEnumsTests/Pods-AirportsAndEnumsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A274B9D487C3A35EF7B3331F /* Pods-AirportsAndEnumsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsAndEnumsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirportsAndEnumsTests/Pods-AirportsAndEnumsTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFC2BE30D2CF37F2DD3D54EE /* Pods_AirportsAndEnumsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportsAndEnumsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AD71D32D09955CCF9CA8B8 /* Pods_AirportsAndEnumsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportsAndEnumsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DD0D8971D32C9BA00DC005F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD0D8AB1D32C9BA00DC005F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FB83FDCABFD8B91ADAF1D1 /* Pods_AirportsAndEnumsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D7509F71D3329E400DF44F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D7509F31D3307FC00DF44F9 /* LoaderController.swift */,
+				5D7509F51D33149200DF44F9 /* CustomSegue.swift */,
+				5D7509EB1D32D7AA00DF44F9 /* FAAServicesAPI.swift */,
+				5DD0D8A61D32C9BA00DC005F /* LaunchScreen.storyboard */,
+				5D7509E71D32D79A00DF44F9 /* Main.storyboard */,
+				5D7509E31D32D77600DF44F9 /* Assets.xcassets */,
+				5DD0D8A91D32C9BA00DC005F /* Info.plist */,
+				5D7509E51D32D78300DF44F9 /* WeatherConditions.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DD0D8911D32C9BA00DC005F = {
+			isa = PBXGroup;
+			children = (
+				5DD0D89C1D32C9BA00DC005F /* AirportsAndEnums */,
+				5DD0D8B11D32C9BA00DC005F /* AirportsAndEnumsTests */,
+				5DD0D89B1D32C9BA00DC005F /* Products */,
+				66196727A0C8C4A524104DA0 /* Pods */,
+				723A0038E502917A28330DEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DD0D89B1D32C9BA00DC005F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DD0D89A1D32C9BA00DC005F /* AirportsAndEnums.app */,
+				5DD0D8AE1D32C9BA00DC005F /* AirportsAndEnumsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DD0D89C1D32C9BA00DC005F /* AirportsAndEnums */ = {
+			isa = PBXGroup;
+			children = (
+				5DD0D89D1D32C9BA00DC005F /* AppDelegate.swift */,
+				5D7509E91D32D7A200DF44F9 /* ViewController.swift */,
+				5D7509EC1D32D7AA00DF44F9 /* AirportStatus.swift */,
+				5D7509F71D3329E400DF44F9 /* Supporting Files */,
+			);
+			path = AirportsAndEnums;
+			sourceTree = "<group>";
+		};
+		5DD0D8B11D32C9BA00DC005F /* AirportsAndEnumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D7509DE1D32CD1300DF44F9 /* AirportAndEnumsLabTests.swift */,
+				5DD0D8B41D32C9BA00DC005F /* Info.plist */,
+			);
+			path = AirportsAndEnumsTests;
+			sourceTree = "<group>";
+		};
+		66196727A0C8C4A524104DA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				674A9D101F8F215179B07450 /* Pods-AirportsAndEnumsTests.debug.xcconfig */,
+				A274B9D487C3A35EF7B3331F /* Pods-AirportsAndEnumsTests.release.xcconfig */,
+				1239ABDDEF12AA1952A6FF0E /* Pods-AirportsAndEnumsUITests.debug.xcconfig */,
+				442C7BBA7EAB37DD112DFF6A /* Pods-AirportsAndEnumsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		723A0038E502917A28330DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DD0D8CB1D32CB8E00DC005F /* Nimble.framework */,
+				CFC2BE30D2CF37F2DD3D54EE /* Pods_AirportsAndEnumsTests.framework */,
+				E4AD71D32D09955CCF9CA8B8 /* Pods_AirportsAndEnumsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DD0D8991D32C9BA00DC005F /* AirportsAndEnums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD0D8C21D32C9BA00DC005F /* Build configuration list for PBXNativeTarget "AirportsAndEnums" */;
+			buildPhases = (
+				5DD0D8961D32C9BA00DC005F /* Sources */,
+				5DD0D8971D32C9BA00DC005F /* Frameworks */,
+				5DD0D8981D32C9BA00DC005F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirportsAndEnums;
+			productName = AirportsAndEnums;
+			productReference = 5DD0D89A1D32C9BA00DC005F /* AirportsAndEnums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DD0D8AD1D32C9BA00DC005F /* AirportsAndEnumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD0D8C51D32C9BA00DC005F /* Build configuration list for PBXNativeTarget "AirportsAndEnumsTests" */;
+			buildPhases = (
+				33759FCBEDD8B3A1B9C8AF4F /* 📦 Check Pods Manifest.lock */,
+				5DD0D8AA1D32C9BA00DC005F /* Sources */,
+				5DD0D8AB1D32C9BA00DC005F /* Frameworks */,
+				5DD0D8AC1D32C9BA00DC005F /* Resources */,
+				8EC411555E4D3A3B6BA750B0 /* 📦 Embed Pods Frameworks */,
+				318CD6FD77F75AE8AE0576A5 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DD0D8B01D32C9BA00DC005F /* PBXTargetDependency */,
+			);
+			name = AirportsAndEnumsTests;
+			productName = AirportsAndEnumsTests;
+			productReference = 5DD0D8AE1D32C9BA00DC005F /* AirportsAndEnumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DD0D8921D32C9BA00DC005F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joel Bell";
+				TargetAttributes = {
+					5DD0D8991D32C9BA00DC005F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5DD0D8AD1D32C9BA00DC005F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5DD0D8991D32C9BA00DC005F;
+					};
+				};
+			};
+			buildConfigurationList = 5DD0D8951D32C9BA00DC005F /* Build configuration list for PBXProject "AirportsAndEnums" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DD0D8911D32C9BA00DC005F;
+			productRefGroup = 5DD0D89B1D32C9BA00DC005F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DD0D8991D32C9BA00DC005F /* AirportsAndEnums */,
+				5DD0D8AD1D32C9BA00DC005F /* AirportsAndEnumsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DD0D8981D32C9BA00DC005F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7509E41D32D77600DF44F9 /* Assets.xcassets in Resources */,
+				5DD0D8A81D32C9BA00DC005F /* LaunchScreen.storyboard in Resources */,
+				5D7509E61D32D78300DF44F9 /* WeatherConditions.plist in Resources */,
+				5D7509E81D32D79A00DF44F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD0D8AC1D32C9BA00DC005F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		318CD6FD77F75AE8AE0576A5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirportsAndEnumsTests/Pods-AirportsAndEnumsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33759FCBEDD8B3A1B9C8AF4F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC411555E4D3A3B6BA750B0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirportsAndEnumsTests/Pods-AirportsAndEnumsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DD0D8961D32C9BA00DC005F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7509EA1D32D7A200DF44F9 /* ViewController.swift in Sources */,
+				5D7509F41D3307FC00DF44F9 /* LoaderController.swift in Sources */,
+				5DD0D89E1D32C9BA00DC005F /* AppDelegate.swift in Sources */,
+				5D7509ED1D32D7AA00DF44F9 /* FAAServicesAPI.swift in Sources */,
+				5D7509F61D33149200DF44F9 /* CustomSegue.swift in Sources */,
+				5D7509EE1D32D7AA00DF44F9 /* AirportStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD0D8AA1D32C9BA00DC005F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7509DF1D32CD1300DF44F9 /* AirportAndEnumsLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DD0D8B01D32C9BA00DC005F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD0D8991D32C9BA00DC005F /* AirportsAndEnums */;
+			targetProxy = 5DD0D8AF1D32C9BA00DC005F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DD0D8A61D32C9BA00DC005F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD0D8A71D32C9BA00DC005F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DD0D8C01D32C9BA00DC005F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DD0D8C11D32C9BA00DC005F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DD0D8C31D32C9BA00DC005F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirportsAndEnums/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlatironSchool.com.AirportsAndEnums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DD0D8C41D32C9BA00DC005F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirportsAndEnums/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlatironSchool.com.AirportsAndEnums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DD0D8C61D32C9BA00DC005F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674A9D101F8F215179B07450 /* Pods-AirportsAndEnumsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AirportsAndEnumsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlatironSchool.com.AirportsAndEnumsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirportsAndEnums.app/AirportsAndEnums";
+			};
+			name = Debug;
+		};
+		5DD0D8C71D32C9BA00DC005F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A274B9D487C3A35EF7B3331F /* Pods-AirportsAndEnumsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AirportsAndEnumsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlatironSchool.com.AirportsAndEnumsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirportsAndEnums.app/AirportsAndEnums";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DD0D8951D32C9BA00DC005F /* Build configuration list for PBXProject "AirportsAndEnums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD0D8C01D32C9BA00DC005F /* Debug */,
+				5DD0D8C11D32C9BA00DC005F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD0D8C21D32C9BA00DC005F /* Build configuration list for PBXNativeTarget "AirportsAndEnums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD0D8C31D32C9BA00DC005F /* Debug */,
+				5DD0D8C41D32C9BA00DC005F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD0D8C51D32C9BA00DC005F /* Build configuration list for PBXNativeTarget "AirportsAndEnumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD0D8C61D32C9BA00DC005F /* Debug */,
+				5DD0D8C71D32C9BA00DC005F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DD0D8921D32C9BA00DC005F /* Project object */;
+}

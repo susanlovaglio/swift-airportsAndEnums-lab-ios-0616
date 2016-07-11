@@ -1,0 +1,6 @@
+framework module Pods_AirportsAndEnumsTests {
+  umbrella header "Pods-AirportsAndEnumsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
