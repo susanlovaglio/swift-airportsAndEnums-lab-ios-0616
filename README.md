@@ -57,7 +57,7 @@ So far you have created an enum but it's not really doing much. `airportDictiona
 
  1. Expand the declaration of the `airportCode` property to include a `didSet` property observer. Use the other properties in the class as a reference.
 
- 2. Assign a status to the property `airportStatus` by accessing the value in `airportDictionary` using the raw value of `airportCode` as the key.
+ 2. Inside the `didSet` property observer, assign a value to the `airportStatus` property. You can get the value by accessing   `airportDictionary`. Use the raw value of `airportCode` as the key.
 
   * *Hint:* Enums come with a `.rawValue` property.
   * *Hint:* You will need to downcast to `AirportStatus` when accessing the status from the dictionary.
