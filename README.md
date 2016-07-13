@@ -20,7 +20,7 @@ Head back to the `ViewController.swift` file. The file uses extensions to organi
 ---
  1. Declare an enum called `AirportCode` of type `String`.
  2. Define cases for the following airport codes: ATL, DFW, JFK, LAX, ORD (keep them in alphabetical order).
-  * _Hint:_ Is there a way to define the cases in one line?
+ _Hint:_ Is there a way to define the cases in one line?
 
 ### 2. Declare an `AirportCode` property on the class
 ---
@@ -45,7 +45,7 @@ Scroll to the `airportDictionary` class property. You'll notice that the `didSet
  }
  ```
  
-  * _Hint:_ Check out [Apple's documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145) and scroll down to the "Initializing from a Raw Value" section.  
+ _Hint:_ Check out [Apple's documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145) and scroll down to the "Initializing from a Raw Value" section.  
  3. Build and run `⌘ + R` the application. You should still see the optional ending in ".ATL" printed out in the console.
 
 ### 4. Add a `didSet` property observer to the `airportCode` property and assign a value to `airportStatus`
@@ -54,8 +54,8 @@ So far you have created an enum but it's not really doing much. `airportDictiona
 
  1. Expand the declaration of the `airportCode` property to include a `didSet` property observer. Use the other properties in the class as a reference.
  2. Inside the `didSet` property observer, assign a value to the `airportStatus` property. You can get the value by accessing   `airportDictionary`. Use the raw value of `airportCode` as the key.
-  * _Hint:_ Enums come with a `.rawValue` property.
-  * _Hint:_ You will need to downcast to `AirportStatus` when accessing the status from the dictionary.
+ _Hint:_ Enums come with a `.rawValue` property.
+ _Hint:_ You will need to downcast to `AirportStatus` when accessing the status from the dictionary.
  3. Build and run `⌘ + R` the application. You should see a big control tower, a pretty moon, and a Delta airplane.  
 
 ### 5. Add a mutating function to the `AirportCode` enum
@@ -63,7 +63,7 @@ So far you have created an enum but it's not really doing much. `airportDictiona
 The view has a gesture set up so the user can swipe left to load the next airport status. Build and run `⌘ + R` the application. Swipe left a few times. While the transition might be fun, the information remains the same. You are going to change that! Scroll to your `AirportCode` enum to add a new function.
 
  1. Add a mutating function called `next()` below your cases.
-  * _Hint:_ Check out [Apple's documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Methods.html) and scroll to the section "Modifying Value Types from Within Instance Methods".
+ _Hint:_ Check out [Apple's documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Methods.html) and scroll to the section "Modifying Value Types from Within Instance Methods".
  2. Inside the mutating function add a switch statement that switches `self`. The goal is to mutate the current value of `self` and change it to the next value (e.g., change `ATL` to `DFW`, `DFW` to `JFK`). The switch should be successive and exhaustive meaning the last case should switch `self` back to `ATL`.
  3. Scroll to the section label `// MARK: Gesture`. Find the `changeStatusWithAnimation()` function. Use your `airportCode` property to call the `next()` function you just defined.
  
