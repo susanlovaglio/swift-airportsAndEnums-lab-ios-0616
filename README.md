@@ -19,7 +19,7 @@ Head back to the `ViewController.swift` file. The file uses extensions to organi
 ### 1. Define the Airport Code enum
 ---
  * Declare an enum called `AirportCode` of type `String`.
- * Define cases for the following airport codes: ATL, DFW, JFK, LAX, ORD (keep them in alphabetical order).
+ * Define cases for the following airport codes: ATL, DFW, JFK, LAX, ORD (keep them in alphabetical order).<br />
   _Hint:_ Is there a way to define the cases in one line?
 
 ### 2. Declare an `AirportCode` property on the class
@@ -53,8 +53,8 @@ Scroll to the `airportDictionary` class property. You'll notice that the `didSet
 So far you have created an enum but it's not really doing much. `airportDictionary` contains all the airport statuses of type `AirportStatus`. Each `AirportStatus` object has all the information you need to assign values to your view properties but we need to get it out of the dictionary first. Now that `airportCode` has an initial value we can use its raw value to access a status in `airportDictionary`. Remember that the keys inside the dictionary match the case names of your enum `["ATL": <AirportStatus>]`.
 
  * Expand the declaration of the `airportCode` property to include a `didSet` property observer. Use the other properties in the class as a reference.
- * Inside the `didSet` property observer, assign a value to the `airportStatus` property. You can get the value by accessing   `airportDictionary`. Use the raw value of `airportCode` as the key.
- _Hint:_ Enums come with a `.rawValue` property.
+ * Inside the `didSet` property observer, assign a value to the `airportStatus` property. You can get the value by accessing   `airportDictionary`. Use the raw value of `airportCode` as the key.<br />
+ _Hint:_ Enums come with a `.rawValue` property.<br />
  _Hint:_ You will need to downcast to `AirportStatus` when accessing the status from the dictionary.
  * Build and run `⌘ + R` the application. You should see a big control tower, a pretty moon, and a Delta airplane.  
 
