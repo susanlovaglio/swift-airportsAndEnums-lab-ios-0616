@@ -36,16 +36,17 @@ Scroll to the `airportDictionary` class property. You'll notice that the `didSet
 
  1. Scroll up to your `airportCode` property and remove `.ATL` as the initial value. We will no longer assign an initial value here.
  2. Back inside the `didSet` observer of `airportDictionary`, assign the initial value to `airportCode` using the raw value initializer. The initializer takes a string argument.
+ _Hint:_ Check out [Apple's documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145) and scroll down to the "Initializing from a Raw Value" section.
  
- ```swift
- if let code = sortedKeys.first {
+  ```swift
+  if let code = sortedKeys.first {
 
-   // declare and assign the property
+     // declare and assign the property
 
- }
- ```
+  }
+  ```
  
- _Hint:_ Check out [Apple's documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145) and scroll down to the "Initializing from a Raw Value" section.  
+   
  3. Build and run `⌘ + R` the application. You should still see the optional ending in ".ATL" printed out in the console.
 
 ### 4. Add a `didSet` property observer to the `airportCode` property and assign a value to `airportStatus`
