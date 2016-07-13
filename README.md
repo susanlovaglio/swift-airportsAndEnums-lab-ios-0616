@@ -7,7 +7,6 @@
  * Declare and define an enum to manage airport statuses
 
 ## Introduction
----
 You can instantly get the status of just about anything and airports are no different. This lab takes you on the wild ride of beautifully displaying airport status information. So have a seat because there will probably be delays.
 
 Open your `.xcworkspace` file and take a look at the project navigator. The `ViewController.swift` file is where you will be doing all your work. Outlet properties are already hooked up, along with some enum properties.
