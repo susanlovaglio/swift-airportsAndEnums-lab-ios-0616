@@ -46,7 +46,7 @@ Scroll up to the top of the `ViewController.swift` file to view all the class pr
 
 ### 3. Assign a raw value to `airportCode` from a key inside `airportDictionary`
 ---
-Scroll to the <code>airportDictionary</code> class property. You'll notice that the <code>didSet</code> property observer is defined for you. The code inside the observer unwraps the dictionary, sorts the keys, and grabs the first key value. The keys inside the dictionary are the same names as the <code>AirportCode</code> cases you defined in your enum. You're going to use the let constant <code>code</code> to initialize your <code>airportCode</code> property.
+Scroll to the <code>airportDictionary</code> class property. You'll notice that the <code>didSet</code> property observer is defined for you. The code inside the observer unwraps the dictionary, sorts the keys, and grabs the first key value. The keys inside the dictionary are the same names as the <code>AirportCode</code> cases you defined in your enum. You're going to use the constant <code>code</code> to initialize your <code>airportCode</code> property.
 <ol>
   <li>
     Scroll up to your <code>airportCode</code> property and remove <code>.ATL</code> as the initial value. We will no longer assign an initial value here.
@@ -112,7 +112,7 @@ if statusReceived {
 
 }
 ```
-<ol start = "4">
+<ol start="4">
   <li>
     Build and run <code>⌘ + R</code> the application. Start swiping left to see the status for each airport.
   </li><li>
