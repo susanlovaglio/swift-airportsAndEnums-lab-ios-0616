@@ -18,8 +18,8 @@ Head back to the `ViewController.swift` file. The file uses extensions to organi
 
 ### 1. Define the Airport Code enum
 ---
- 1. Declare an enum called `AirportCode` of type `String`.
- 2. Define cases for the following airport codes: ATL, DFW, JFK, LAX, ORD (keep them in alphabetical order).
+ **1**. Declare an enum called `AirportCode` of type `String`.
+ **2**. Define cases for the following airport codes: ATL, DFW, JFK, LAX, ORD (keep them in alphabetical order).
  _Hint:_ Is there a way to define the cases in one line?
 
 ### 2. Declare an `AirportCode` property on the class
