@@ -2,8 +2,8 @@
 //  CustomSegue.swift
 //  AirportsAndEnums
 //
-//  Created by Joel Bell on 7/10/16.
-//  Copyright © 2016 Joel Bell. All rights reserved.
+//  Created by Flatiron School on 7/10/16.
+//  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
 import UIKit

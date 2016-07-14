@@ -2,10 +2,14 @@
 //  AirportAndEnumsTests.swift
 //  AirportsAndEnums
 //
+//  Created by Flatiron School on 7/10/16.
+//  Copyright © 2016 Flatiron School. All rights reserved.
+//
 
+import XCTest
+import Foundation
 import Quick
 import Nimble
-import Foundation
 @testable import AirportsAndEnums
 
 class ViewControllerSpec: QuickSpec {
