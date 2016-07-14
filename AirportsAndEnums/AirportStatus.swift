@@ -1,6 +1,9 @@
 //
 //  AirportStatus.swift
-//  Enums
+//  AirportsAndEnums
+//
+//  Created by Flatiron School on 7/10/16.
+//  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
 import Foundation
@@ -53,7 +56,7 @@ extension AirportStatus {
         
         if delay == "true" {
             delay = "Delays"
-        } else {
+        } else if delay == "false" {
             delay = "No delays"
         }
         

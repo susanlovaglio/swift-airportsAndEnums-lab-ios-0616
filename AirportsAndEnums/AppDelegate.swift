@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  AirportsAndEnums
 //
-//  Created by Joel Bell on 7/10/16.
-//  Copyright © 2016 Joel Bell. All rights reserved.
+//  Created by Flatiron School on 7/10/16.
+//  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 

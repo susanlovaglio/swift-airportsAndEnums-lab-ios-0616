@@ -1,6 +1,9 @@
 //
 //  ViewController.swift
-//  Enums
+//  AirportsAndEnums
+//
+//  Created by Flatiron School on 7/10/16.
+//  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
 import UIKit

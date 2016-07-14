@@ -19,6 +19,7 @@
 		5D7509F61D33149200DF44F9 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7509F51D33149200DF44F9 /* CustomSegue.swift */; };
 		5DD0D89E1D32C9BA00DC005F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D89D1D32C9BA00DC005F /* AppDelegate.swift */; };
 		5DD0D8A81D32C9BA00DC005F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD0D8A61D32C9BA00DC005F /* LaunchScreen.storyboard */; };
+		5DD934EC1D383C3700E13B9C /* AirportsAndEnumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD934EB1D383C3700E13B9C /* AirportsAndEnumsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		5DD0D8AE1D32C9BA00DC005F /* AirportsAndEnumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportsAndEnumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD0D8B41D32C9BA00DC005F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DD0D8CB1D32CB8E00DC005F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../../Library/Developer/Xcode/DerivedData/AirportsAndEnums-fsqtxdokoeaxnifwumkhckszawxh/Build/Products/Debug-iphonesimulator/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		5DD934EB1D383C3700E13B9C /* AirportsAndEnumsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportsAndEnumsTests.swift; sourceTree = "<group>"; };
 		674A9D101F8F215179B07450 /* Pods-AirportsAndEnumsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsAndEnumsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirportsAndEnumsTests/Pods-AirportsAndEnumsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A274B9D487C3A35EF7B3331F /* Pods-AirportsAndEnumsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsAndEnumsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirportsAndEnumsTests/Pods-AirportsAndEnumsTests.release.xcconfig"; sourceTree = "<group>"; };
 		CFC2BE30D2CF37F2DD3D54EE /* Pods_AirportsAndEnumsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportsAndEnumsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 			children = (
 				5D7509DE1D32CD1300DF44F9 /* AirportAndEnumsLabTests.swift */,
 				5DD0D8B41D32C9BA00DC005F /* Info.plist */,
+				5DD934EB1D383C3700E13B9C /* AirportsAndEnumsTests.swift */,
 			);
 			path = AirportsAndEnumsTests;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7509DF1D32CD1300DF44F9 /* AirportAndEnumsLabTests.swift in Sources */,
+				5DD934EC1D383C3700E13B9C /* AirportsAndEnumsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
